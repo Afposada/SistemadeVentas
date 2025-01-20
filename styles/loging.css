@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f1f1;
+    background-image: url(/img/imlogin.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.login-container{
+    width: 420px;
+    max-width: 380px;
+    padding: 40px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+.login-container h2 {
+   font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+label{
+    font-size: 18px;
+    color:beige ;
+}
+.login-container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background: #4c9e33;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    font: size 16px;;
+}

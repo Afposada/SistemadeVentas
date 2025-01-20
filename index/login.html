@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../styles/loging.css">
+    <form method="post" action="#">
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Constraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="alert">
+                <?php echo isset ($alert) ? $alert : '';  ?>
+            </div>
+            <input type="button" value="Ingresar" onclick="login()">
+        </form>
+        <script src="../js/logingscript.js"></script>
+
+    </div>
+</body>
+
+</html>

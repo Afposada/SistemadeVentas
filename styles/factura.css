@@ -1,0 +1,36 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+.invoice-container {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    }
+.invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+.invoice-details {
+    margin-bottom: 20px;
+    }
+.invoice-details label {
+    display: block;
+    margin-bottom: 5px;
+    }
+.invoice-details input, .invoice-details select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    }
+   .container-cliente{
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}

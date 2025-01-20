@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="/styles/factura.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="invoice-header">
+            <h1>Factura</h1>
+        </div>
+    </div>
+
+    <div class="container-cliente">
+        <label type="number">Id Cliente:</label>
+        <input type="number" id="idCliente" name="cliente">
+        <label for="text">Cliente:</label>
+        <input type="text" id="cliente" name="cliente">
+        <label for="text">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+        <label for="text">Dirección:</label> 
+        <input type="text" id="direccion" name="direccion">
+        </div>
+<div class="invoice-container">
+        <label for="text">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <label for="text">Hora:</label>
+        <input type="time" id="hora" name="hora">
+        <label for="text">Vendedor:</label>
+        <input type="text" id="vendedor" name="vendedor">
+        <label for="text">Id Vendedor:</label>
+        <input type="text" id="idVendedor" name="idVendedor">
+        </div>
+        <div class="invoice-container">
+        <label for="text">N Factura:</label>
+        <input type="text" id="idFactura" name="idFactura">
+        <label for="text">Condiciones de Pago:</label>
+        <input type="text" id="tipoPago" name="tipoPago">
+        <label for="text">Fecha Vencimiento Factura</label>
+        <input type="date" id="total" name="total">
+
+</div>
+        <div class="invoice-details">
+            <label for="category">Categoría:</label>
+            <select id="category" name="category">
+                <option value="electronics">Electrónica</option>
+                <option value="clothing">Ropa</option>
+                <option value="groceries">Comestibles</option>
+                <!-- Add more categories as needed -->
+            </select>
+
+            <label for="brand">Marca:</label>
+            <input type="text" id="brand" name="brand">
+
+            <label for="product">Producto:</label>
+            <input type="text" id="product" name="product">
+
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity">
+
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" step="0.01">
+        </div>
+    </div>
+</body>
+</html>
